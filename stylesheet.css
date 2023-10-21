@@ -1,0 +1,87 @@
+.first{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5%;
+    row-gap: 5px;
+}
+  
+
+
+h1{
+    background-color: red;
+}
+h1,nav{
+    text-align: center;
+}
+nav{
+    padding-top: 0;
+}
+nav{
+    background-color:yellowgreen;
+    
+    font-size: 45px;
+    
+    
+}
+
+.main_logo{
+    background-color: orangered;
+
+
+
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    background-color: beige;
+}
+
+footer{
+    background-color: black;
+}
+nav:hover{
+    background-color: pink;
+    color: red;
+}
+.Home:hover{
+    background-color:blue ;
+    color: black;
+    
+}
+
+.History:hover{
+    background-color:blue ;
+    color: black;
+
+}
+.Gallery:hover{
+    background-color:blue ;
+    color: black;
+
+}
+
+.contact:hover{
+    background-color:blue ;
+    color: black;
+}
+
+.info{
+    color: white;
+}
+.media{
+    color: white;
+}
+
+.face{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+h3:hover,h2:hover{
+    color: black;
+    background-color: white;
+
+}
