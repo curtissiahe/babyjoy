@@ -1,0 +1,79 @@
+
+
+
+nav{
+    text-align: center;
+    font-size: 41px;
+    grid-column:3 ;
+    grid-row: 1;
+    color: white;
+    padding-top: 0;
+    z-index: 1;
+    padding: 5%;
+    row-gap: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  
+    
+
+}
+
+
+
+header{
+    display: grid;
+    grid-template-columns:150px auto ;
+    z-index: -1;
+    
+   
+}
+
+.mainp{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: wheat;
+}
+
+.face{
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+.whatsp{
+    grid-row:1/2 ;
+    grid-column: 3;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+.tread{
+    text-align: center;
+    font-size: 40px;
+}
+
+#active{
+    z-index: 1;
+}
+#image1{
+    margin-top: -100px;
+
+}
+.pink{
+    background-color: pink;
+}
+
+body{
+    background-color: gray;
+    size: 100%;
+}
+nav:hover{
+    color: white;
+    background-color: red;
+    font-size: 35px;
+}
+
+

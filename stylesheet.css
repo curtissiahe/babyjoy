@@ -3,6 +3,18 @@
     grid-template-columns: auto auto auto;
     padding: 5%;
     row-gap: 5px;
+    border: 10px solid #d9c2a3;
+ transition: transform .5s;
+ box-shadow: 5px 5px 10px #6f7364;
+
+ 
+
+}
+.first:hover{
+
+    opacity: 4;
+ transform: scale(1.1);
+
 }
   
 
@@ -13,13 +25,12 @@ h1{
 h1,nav{
     text-align: center;
 }
-nav{
-    padding-top: 0;
-}
+
 nav{
     background-color:yellowgreen;
     
     font-size: 45px;
+    padding-top: 0;
     
     
 }
@@ -85,3 +96,13 @@ h3:hover,h2:hover{
     background-color: white;
 
 }
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#active{
+    z-index: 1;
+}
+
