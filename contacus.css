@@ -58,8 +58,9 @@ footer{
 #active{
     z-index: 1;
 }
-#image1{
+.image1{
     margin-top: -100px;
+    width: 100%;
 
 }
 .pink{
@@ -68,7 +69,7 @@ footer{
 
 body{
     background-color: gray;
-    size: 100%;
+   
 }
 nav:hover{
     color: white;
