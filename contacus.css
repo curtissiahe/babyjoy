@@ -61,6 +61,7 @@ footer{
 .image1{
     margin-top: -100px;
     width: 100%;
+    
 
 }
 .pink{
@@ -75,6 +76,24 @@ nav:hover{
     color: white;
     background-color: red;
     font-size: 35px;
+}
+
+
+
+#feedback {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none; 
+    
+    
+}
+.moveDown {
+    margin-top: 3em;
 }
 
 
