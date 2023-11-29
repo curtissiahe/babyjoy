@@ -1,29 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+
 .first{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: -2%;
     row-gap: 5px;
-    border: 10px solid #d9c2a3;
- transition: transform.5s;
- box-shadow: 5px 5px 10px #6f7364;
-
-
- 
-
+    font-family: ital, Helvetica, sans-serif;
+    
 }
 
-  
+  .title{
+
+    font-family: "cedarville cursive";
+  }
 
 
 h1{
-    background-color: red;
+    background-color: #9dc3c2;
 }
 h1,nav{
     text-align: center;
 }
 
 nav{
-    background-color:yellowgreen;
+    background-color:#9dc3c2;
     
     font-size: 45px;
     padding-top: 0;
@@ -43,35 +45,33 @@ p{
 }
 
 body{
-    background-color: beige;
+    background-color: #b3d89c;
 }
 
 footer{
-    background-color: black;
+    background-color: #77a6b6;
 }
-nav:hover{
-    background-color: pink;
-    color: red;
-}
+
+
 .Home:hover{
-    background-color:blue ;
+    background-color:#9dc3c2 ;
     color: black;
     
 }
 
 .History:hover{
-    background-color:blue ;
+    background-color:#9dc3c2;
     color: black;
 
 }
 .Gallery:hover{
-    background-color:blue ;
+    background-color:#9dc3c2 ;
     color: black;
 
 }
 
 .contact:hover{
-    background-color:blue ;
+    background-color:#9dc3c2 ;
     color: black;
 }
 
@@ -110,9 +110,17 @@ h4{
 .para{
     display: grid;
     grid-template-columns:auto auto;
-    
-    
+    font-family: ital, Helvetica, sans-serif;
 }
+
+
+.para2{
+    font-family: ital, Helvetica, sans-serif;
+
+}
+    
+    
+
 .one{
     grid-column:1/2;
     grid-row: 1/2;
