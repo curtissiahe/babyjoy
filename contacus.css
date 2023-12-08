@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@1,300&display=swap');
 
 
 
@@ -32,7 +33,8 @@ header{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    background-color: wheat;
+    background-color: aqua;
+    font-family: "cedarville cursive";
 }
 
 .face{
@@ -47,12 +49,14 @@ header{
 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: #9dc3c2;
+    color: black;
+    font-family: "cedarville cursive";
 }
 .tread{
     text-align: center;
     font-size: 40px;
+    fptn
 }
 
 #active{
@@ -65,18 +69,15 @@ footer{
 
 }
 .pink{
-    background-color: pink;
+    background-color: #9dc3c2;
+    font-family: "cedarville cursive";
 }
 
 body{
-    background-color: gray;
+    background-color: #b3d89c;
    
 }
-nav:hover{
-    color: white;
-    background-color: red;
-    font-size: 35px;
-}
+
 
 
 
